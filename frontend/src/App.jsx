@@ -1,20 +1,11 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import TermekLista from './components/TermekLista'
-import RendelesLista from './components/RendelesLista'
-import './App.css'
+import LoginForm from "./components/LoginForm";
+import RegForm from "./components/RegForm";
+
+import "./App.css";
+import UserForm from "./components/UserForm";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      {/* <TermekLista/> */}
-      <RendelesLista/>
-    </>
-  )
+    return <UserForm />;
 }
 
-export default App
+export default App;

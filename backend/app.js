@@ -4,7 +4,6 @@
 // var logger = require('morgan');
 
 // var indexRouter = require('./routes/index');
-// var usersRouter = require('./routes/users');
 
 import express from 'express';
 import path from 'path';
@@ -16,7 +15,6 @@ import cors from 'cors'
 import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
 import termekRouter from './routes/termekek.js';
-import rendelesRouter from './routes/rendelesek.js'
 var app = express();
 app.use(cors());
 
@@ -34,6 +32,4 @@ app.use(cookieParser());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/termekek', termekRouter);
-app.use('/rendelesek', rendelesRouter);
-
 export default app

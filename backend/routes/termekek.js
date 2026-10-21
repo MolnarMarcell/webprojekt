@@ -7,4 +7,5 @@ router.get('/', TermekController.getAll);
 
 
 
+
 export default router;
