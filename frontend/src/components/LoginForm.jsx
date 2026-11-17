@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import api from '../api/axiosInstance'
-import '../App.css'
+import '../css/AuthForm.css'
 
 export default function LoginForm() {
     const [formdata, setFormData] = useState({ email: '', password: '' })

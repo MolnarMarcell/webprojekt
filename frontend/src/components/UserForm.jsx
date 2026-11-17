@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./UserForm.css";
+import "../css/UserForm.css";
 
 export default function UserForm() {
     const initialForm = {
